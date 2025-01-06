@@ -189,7 +189,10 @@ public class MainActivity2 extends AppCompatActivity {
 //                p.putExtra("dp",blank[position]);
 //                startActivity(p);
 
-                startActivity(new Intent(MainActivity2.this,MainActivity3.class).putExtra("shyri",blank[position]).putExtra("array",blank).putExtra("ds",position));
+                startActivity(new Intent(MainActivity2.this,MainActivity3.class)
+                        .putExtra("shyri",blank[position])
+                        .putExtra("array",blank)
+                        .putExtra("ds",position));
 
 
             }

@@ -39,8 +39,7 @@ public class MainActivity3 extends AppCompatActivity {
         vpager = findViewById(R.id.vpager);
 
         String[] array = getIntent().getStringArrayExtra("array");
-
-        String t = getIntent().getStringExtra("dp");
+//        String t = getIntent().getStringExtra("dp");
 
         int k = getIntent().getIntExtra("ds",0);
 
